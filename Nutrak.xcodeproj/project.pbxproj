@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		229B429F2D94BF3D00E6830D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229B42862D94BF3900E6830D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229B428D2D94BF3900E6830D;
+			remoteInfo = Nutrak;
+		};
+		229B42A92D94BF3D00E6830D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229B42862D94BF3900E6830D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229B428D2D94BF3900E6830D;
+			remoteInfo = Nutrak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229B428E2D94BF3900E6830D /* Nutrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nutrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229B429E2D94BF3D00E6830D /* NutrakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229B42A82D94BF3D00E6830D /* NutrakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NutrakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		229B42D42D94F01800E6830D /* Exceptions for "Nutrak" folder in "Nutrak" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 229B428D2D94BF3900E6830D /* Nutrak */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		229B42902D94BF3900E6830D /* Nutrak */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				229B42D42D94F01800E6830D /* Exceptions for "Nutrak" folder in "Nutrak" target */,
+			);
+			path = Nutrak;
+			sourceTree = "<group>";
+		};
+		229B42A12D94BF3D00E6830D /* NutrakTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NutrakTests;
+			sourceTree = "<group>";
+		};
+		229B42AB2D94BF3D00E6830D /* NutrakUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NutrakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229B428B2D94BF3900E6830D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B429B2D94BF3D00E6830D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B42A52D94BF3D00E6830D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229B42852D94BF3900E6830D = {
+			isa = PBXGroup;
+			children = (
+				229B42902D94BF3900E6830D /* Nutrak */,
+				229B42A12D94BF3D00E6830D /* NutrakTests */,
+				229B42AB2D94BF3D00E6830D /* NutrakUITests */,
+				229B428F2D94BF3900E6830D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229B428F2D94BF3900E6830D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229B428E2D94BF3900E6830D /* Nutrak.app */,
+				229B429E2D94BF3D00E6830D /* NutrakTests.xctest */,
+				229B42A82D94BF3D00E6830D /* NutrakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229B428D2D94BF3900E6830D /* Nutrak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229B42B22D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "Nutrak" */;
+			buildPhases = (
+				229B428A2D94BF3900E6830D /* Sources */,
+				229B428B2D94BF3900E6830D /* Frameworks */,
+				229B428C2D94BF3900E6830D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				229B42902D94BF3900E6830D /* Nutrak */,
+			);
+			name = Nutrak;
+			packageProductDependencies = (
+			);
+			productName = Nutrak;
+			productReference = 229B428E2D94BF3900E6830D /* Nutrak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229B429D2D94BF3D00E6830D /* NutrakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229B42B52D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "NutrakTests" */;
+			buildPhases = (
+				229B429A2D94BF3D00E6830D /* Sources */,
+				229B429B2D94BF3D00E6830D /* Frameworks */,
+				229B429C2D94BF3D00E6830D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229B42A02D94BF3D00E6830D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				229B42A12D94BF3D00E6830D /* NutrakTests */,
+			);
+			name = NutrakTests;
+			packageProductDependencies = (
+			);
+			productName = NutrakTests;
+			productReference = 229B429E2D94BF3D00E6830D /* NutrakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229B42A72D94BF3D00E6830D /* NutrakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229B42B82D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "NutrakUITests" */;
+			buildPhases = (
+				229B42A42D94BF3D00E6830D /* Sources */,
+				229B42A52D94BF3D00E6830D /* Frameworks */,
+				229B42A62D94BF3D00E6830D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229B42AA2D94BF3D00E6830D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				229B42AB2D94BF3D00E6830D /* NutrakUITests */,
+			);
+			name = NutrakUITests;
+			packageProductDependencies = (
+			);
+			productName = NutrakUITests;
+			productReference = 229B42A82D94BF3D00E6830D /* NutrakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229B42862D94BF3900E6830D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					229B428D2D94BF3900E6830D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					229B429D2D94BF3D00E6830D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 229B428D2D94BF3900E6830D;
+					};
+					229B42A72D94BF3D00E6830D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 229B428D2D94BF3900E6830D;
+					};
+				};
+			};
+			buildConfigurationList = 229B42892D94BF3900E6830D /* Build configuration list for PBXProject "Nutrak" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229B42852D94BF3900E6830D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 229B428F2D94BF3900E6830D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229B428D2D94BF3900E6830D /* Nutrak */,
+				229B429D2D94BF3D00E6830D /* NutrakTests */,
+				229B42A72D94BF3D00E6830D /* NutrakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229B428C2D94BF3900E6830D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B429C2D94BF3D00E6830D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B42A62D94BF3D00E6830D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229B428A2D94BF3900E6830D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B429A2D94BF3D00E6830D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229B42A42D94BF3D00E6830D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229B42A02D94BF3D00E6830D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229B428D2D94BF3900E6830D /* Nutrak */;
+			targetProxy = 229B429F2D94BF3D00E6830D /* PBXContainerItemProxy */;
+		};
+		229B42AA2D94BF3D00E6830D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229B428D2D94BF3900E6830D /* Nutrak */;
+			targetProxy = 229B42A92D94BF3D00E6830D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		229B42B02D94BF3D00E6830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229B42B12D94BF3D00E6830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229B42B32D94BF3D00E6830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nutrak/Preview Content\"";
+				DEVELOPMENT_TEAM = D7J47JG8UC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutrak/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Nutrak uses pictures of food to scan for nutrients present on it.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Nutrak uses pictures of food to scan for nutrients present on it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.Nutrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229B42B42D94BF3D00E6830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nutrak/Preview Content\"";
+				DEVELOPMENT_TEAM = D7J47JG8UC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Nutrak/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Nutrak uses pictures of food to scan for nutrients present on it.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Nutrak uses pictures of food to scan for nutrients present on it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.Nutrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229B42B62D94BF3D00E6830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.NutrakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutrak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nutrak";
+			};
+			name = Debug;
+		};
+		229B42B72D94BF3D00E6830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.NutrakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nutrak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nutrak";
+			};
+			name = Release;
+		};
+		229B42B92D94BF3D00E6830D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.NutrakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nutrak;
+			};
+			name = Debug;
+		};
+		229B42BA2D94BF3D00E6830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauricio.NutrakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nutrak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229B42892D94BF3900E6830D /* Build configuration list for PBXProject "Nutrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B42B02D94BF3D00E6830D /* Debug */,
+				229B42B12D94BF3D00E6830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229B42B22D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "Nutrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B42B32D94BF3D00E6830D /* Debug */,
+				229B42B42D94BF3D00E6830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229B42B52D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "NutrakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B42B62D94BF3D00E6830D /* Debug */,
+				229B42B72D94BF3D00E6830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229B42B82D94BF3D00E6830D /* Build configuration list for PBXNativeTarget "NutrakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229B42B92D94BF3D00E6830D /* Debug */,
+				229B42BA2D94BF3D00E6830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229B42862D94BF3900E6830D /* Project object */;
+}

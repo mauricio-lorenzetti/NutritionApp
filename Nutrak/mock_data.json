@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": {
+    "foodName": "Pepperoni Pizza",
+    "calories": 320,
+    "macronutrients": [
+      {
+        "id": "proteins",
+        "name": "Proteins",
+        "value": 13
+      },
+      {
+        "id": "carbs",
+        "name": "Carbs",
+        "value": 35
+      },
+      {
+        "id": "fats",
+        "name": "Fats",
+        "value": 12
+      }
+    ],
+    "micronutrients": [
+      {
+        "id": "vitamin_a",
+        "name": "Vitamin A",
+        "value": 10,
+        "unit": "%"
+      },
+      {
+        "id": "calcium",
+        "name": "Calcium",
+        "value": 20,
+        "unit": "%"
+      }
+    ],
+    "weeklyData": [0.4, 0.5, 0.6, 0.8, 0.5, 0.6, 0.7],
+    "caloriesGoal": 2000,
+    "proteinsGoal": 50,
+    "carbsGoal": 250,
+    "fatsGoal": 70
+  },
+  "error": null
+}
