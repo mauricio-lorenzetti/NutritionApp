@@ -33,29 +33,21 @@ class PhotoPickerModel: ObservableObject {
     
     @Published var state: PhotoPickerState = .idle
     
-    func loadTransferable(from imageSelection: PhotosPickerItem) async {
-        DispatchQueue.main.async {
-            self.state = .loading
-        }
+    @MainActor func loadTransferable(from imageSelection: PhotosPickerItem) async {
+        self.state = .loading
         
         do {
             // Load the image data
             if let data = try await imageSelection.loadTransferable(type: Data.self) {
                 if let image = UIImage(data: data) {
-                    DispatchQueue.main.async {
-                        self.state = .success(image)
-                    }
+                    self.state = .success(image)
                     return
                 }
             }
             
-            DispatchQueue.main.async {
-                self.state = .failure(NSError(domain: "PhotoPickerError", code: 0, userInfo: [NSLocalizedDescriptionKey: "Could not load image"]))
-            }
+            self.state = .failure(NSError(domain: "PhotoPickerError", code: 0, userInfo: [NSLocalizedDescriptionKey: "Could not load image"]))
         } catch {
-            DispatchQueue.main.async {
-                self.state = .failure(error)
-            }
+            self.state = .failure(error)
         }
     }
 }
